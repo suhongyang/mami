@@ -30,6 +30,7 @@ blog/
 cms/
 dataobject_manager/
 dbplumber/
+framework/
 googlesitemaps/
 logs/
 lumberjack/
