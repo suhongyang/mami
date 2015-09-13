@@ -26,12 +26,15 @@ Thumbs.db
 # SilverStripe folders #
 ########################
 assets/
+blog/
 cms/
 dataobject_manager/
 dbplumber/
 googlesitemaps/
 logs/
+lumberjack/
 sapphire/
 silverstripe-cache/
+tagfield/
 uploadify/
 vendor/
