@@ -1,0 +1,31 @@
+{
+  "name": "mami_ss_theme",
+  "version": "0.1.0",
+  "description": "SilverStripe theme for Mami website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mami",
+    "silverstripe",
+    "theme"
+  ],
+  "author": "Oly Su",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-csslint": "^0.2.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}

@@ -39,3 +39,8 @@ silverstripe-cache/
 tagfield/
 uploadify/
 vendor/
+
+
+# Theme related files #
+#######################
+node_modules/

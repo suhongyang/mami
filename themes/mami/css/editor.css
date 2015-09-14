@@ -1,0 +1,7 @@
+/**
+ * This support file is used to style the WYSIWYG editor in the CMS
+ *
+ * Including the typography.css file then some of the boilerplate css changes
+ */
+
+@import "typography.css";
