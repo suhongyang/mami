@@ -1,10 +1,7 @@
-<header>
-	<a href="$BaseHref" rel="home">
-		<h1>$SiteConfig.Title</h1>
-		<% if $SiteConfig.Tagline %><p><$SiteConfig.Tagline</p><% end_if %>
-	</a>
-	
-	<% if $SearchForm %>$SearchForm<% end_if %> <!-- see http://doc.silverstripe.org/sapphire/en/tutorials/4-site-search to enable site search -->
-	
-	<% include Navigation %>
+<header id="header">
+	<a href="$BaseHref" class="image avatar"><img src="{$ThemeDir}/img/avatar.jpg" alt="桃子妈妈" /></a>
+	<h1>
+		<strong>我是{$SiteConfig.Title}</strong><br>
+		$SiteConfig.Tagline
+	</h1>
 </header>

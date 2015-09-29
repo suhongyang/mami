@@ -14,9 +14,12 @@
   "author": "Oly Su",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "modernizr": "^3.0.0",
+    "normalize.css": "^3.0.3"
   },
   "devDependencies": {
+    "bourbon": "^4.2.4",
     "browser-sync": "^2.9.3",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.1",
@@ -26,6 +29,9 @@
     "gulp-jshint": "^1.11.2",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.4",
-    "imagemin-pngquant": "^4.2.0"
+    "gulp-sourcemaps": "^1.5.2",
+    "imagemin-pngquant": "^4.2.0",
+    "node-bourbon": "^4.2.3",
+    "normalize.scss": "^0.1.0"
   }
 }
