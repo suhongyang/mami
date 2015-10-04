@@ -6,3 +6,51 @@ Description: Taozimama.com Wordpress child theme based off Arcade Basic theme
 Template: arcade-basic
 Version: 1.0.0
 */
+
+/**
+ * Typography
+ * ==========
+ */
+
+/* Base text color */
+
+body.basic {
+	color: #666;
+}
+
+
+/* Heading 1 */
+
+.basic h1,
+.basic h1 a {
+	color: #666;
+}
+
+.entry-title {
+	margin-bottom: .5em;
+}
+
+
+/* Hyperlink */
+
+a,
+.basic a {
+	color: #FE4365;
+	transition: color .35s ease-in;
+}
+
+a:hover,
+.basic a:hover {
+	color: #f06;
+	text-decoration: none;
+}
+
+
+/**
+ * Header
+ * ======
+ */
+
+#site-meta .fa {
+	color: #FEE2AD;
+}
