@@ -15,7 +15,6 @@ $bavotasan_theme_options = bavotasan_theme_options();
 			<div class="row">
 				<div class="copyright col-lg-12">
 					<span class="pull-left"><?php printf( __( 'Copyright &copy; %s %s. All Rights Reserved.', 'arcade' ), date( 'Y' ), ' <a href="' . home_url() . '">' . get_bloginfo( 'name' ) .'</a>' ); ?></span>
-					<span class="credit-link pull-right"><i class="fa fa-leaf"></i><?php printf( __( 'The %s Theme by %s.', 'arcade' ), BAVOTASAN_THEME_NAME, '<a href="http://themes.bavotasan.com/themes/arcade">bavotasan.com</a>' ); ?></span>
 				</div><!-- .col-lg-12 -->
 			</div><!-- .row -->
 		</div><!-- #footer-content.container -->
@@ -24,21 +23,17 @@ $bavotasan_theme_options = bavotasan_theme_options();
 
 <?php wp_footer(); ?>
 
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//taozimama.com/piwik/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 1]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
+<?php /* Google Analytics */ ?>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68455303-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
-<noscript><p><img src="//taozimama.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
 
 </body>
 </html>
